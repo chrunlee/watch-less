@@ -33,10 +33,10 @@ var argv = require("minimist")(process.argv.slice(2), {
 
 if (argv.help) {
   console.log("Usage:".info);
-  console.log("  watch-less --help            // print help information".success);
-  console.log("  watch-less                   // watch current dir and output to current ".success);
-  console.log("  watch-less -d /home/less     // watch a special director".success);
-  console.log("  watch-less -t /home/less     // target directory ".success);
+  console.log("  watchlessc --help            // print help information".success);
+  console.log("  watchlessc                   // watch current dir and output to current ".success);
+  console.log("  watchlessc -d /home/less     // watch a special director".success);
+  console.log("  watchlessc -t /home/less     // target directory ".success);
   process.exit(0);
 }
 

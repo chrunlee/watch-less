@@ -1,4 +1,4 @@
-watch-less 监控文件夹内less文件的变化并自动编译。
+watchlessc 监控文件夹内less文件的变化并自动编译。
 ==============================
 
 
@@ -9,28 +9,28 @@ Install it as a command line tool via `npm -g`.
 Depend on `less` in global.
 ```sh
 npm install less -g
-npm install watch-less -g
+npm install watchlessc -g
 ```
 
 ## Execution
 
 ```sh
-$ watch-less
+$ watchlessc
 // or with directory
-$ watch-less -d /home/less
+$ watchlessc -d /home/less
 // or start it with a target directory
-$ watch-less -d /home/less -t /home/target
+$ watchlessc -d /home/less -t /home/target
 ```
 
 ## Help
 
 ```sh
-$ watch-less --help
+$ watchlessc --help
 Usage:
-  watch-less --help // print help information
-  watch-less // current directory as default
-  watch-less -d /home/less // watch a directory
-  watch-less -d /home/less -t /home/target // watch a directory and output to a target directory
+  watchlessc --help // print help information
+  watchlessc // current directory as default
+  watchlessc -d /home/less // watch a directory
+  watchlessc -d /home/less -t /home/target // watch a directory and output to a target directory
 ```
 
 ## License

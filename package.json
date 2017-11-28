@@ -1,9 +1,9 @@
 {
-  "name": "watch-less",
+  "name": "watchlessc",
   "version": "1.0.0",
   "description": "monit files or directories and compile less file",
   "bin": {
-    "watch-less": "./bin/watch-less"
+    "watchlessc": "./bin/watchlessc"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
