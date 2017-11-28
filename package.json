@@ -1,0 +1,31 @@
+{
+  "name": "watch-less",
+  "version": "1.0.0",
+  "description": "monit files or directories and compile less file",
+  "bin": {
+    "watch-less": "./bin/watch-less"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrunlee/watch-less.git"
+  },
+  "keywords": [
+    "watch-less",
+    "less"
+  ],
+  "author": "chrunlee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrunlee/watch-less/issues"
+  },
+  "homepage": "https://github.com/chrunlee/watch-less#readme",
+  "dependencies": {
+    "chokidar": "^1.7.0",
+    "colors": "^1.1.2",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}
